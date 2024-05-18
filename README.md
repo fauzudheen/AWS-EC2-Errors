@@ -8,10 +8,9 @@ This guide walks you through the process of setting up a Django project with Pos
 
 If you encounter the following error:
 
-```
 [2019-06-22 11:47:13 +0000] [20317] [ERROR] Retrying in 1 second.
 [2019-06-22 11:47:14 +0000] [20317] [ERROR] Can't connect to ('0.0.0.0', 80)
-```
+
 
 **Solution:**
 
@@ -47,7 +46,7 @@ http {
 To connect to the database using psql:
 
 ```bash
-psql -U fauzu -d ec2solemate -h localhost -W
+psql -U [user] -d [dbname] -h localhost -W
 ```
 
 ### Certbot SSL Installation
@@ -86,6 +85,4 @@ sudo env/bin/certbot renew --dry-run
 
 Then retry the previous command.
 
-## Additional Notes
 
-Feel free to add any additional notes or instructions specific to your project here.
