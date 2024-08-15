@@ -1,6 +1,6 @@
-# Setting up Django with Postgres, Nginx, and Gunicorn on Ubuntu 22.04
+# Setting up Django with Postgres, Nginx, and Gunicorn on Ubuntu
 
-This guide includes commands for handling potential errors during the process of setting up a Django project with Postgres, Nginx, and Gunicorn on Ubuntu 22.04 and setting up SSL certificates with Certbot.
+This guide includes commands for handling potential errors during the process of setting up a Django project with Postgres, Nginx, and Gunicorn on Ubuntu and setting up SSL certificates with Certbot.
 
 ## Blog
 https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu
