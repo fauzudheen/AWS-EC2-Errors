@@ -2,6 +2,9 @@
 
 This guide includes commands for handling potential errors during the process of setting up a Django project with Postgres, Nginx, and Gunicorn on Ubuntu 22.04 and setting up SSL certificates with Certbot.
 
+## Blog
+https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu
+
 ## Potential Errors and Solutions
 
 ### Error: Gunicorn Can't Connect to ('0.0.0.0', 80)
@@ -9,6 +12,7 @@ This guide includes commands for handling potential errors during the process of
 If you encounter the following error:
 
 [2019-06-22 11:47:13 +0000] [20317] [ERROR] Retrying in 1 second.
+
 [2019-06-22 11:47:14 +0000] [20317] [ERROR] Can't connect to ('0.0.0.0', 80)
 
 
