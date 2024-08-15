@@ -11,7 +11,7 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postg
 
 If you encounter the following error:
 
-[2019-06-22 11:47:13 +0000] [20317] [ERROR] Retrying in 1 second.
+[2019-06-22 11:47:13 +0000] [20317] [ERROR] Retrying in 1 second. ` `
 [2019-06-22 11:47:14 +0000] [20317] [ERROR] Can't connect to ('0.0.0.0', 80)
 
 
